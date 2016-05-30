@@ -1,5 +1,6 @@
 body {
-	background-color: black;
+	border-style:solid;
+	border-width: 6px; 
 }
 
 p {
