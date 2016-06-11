@@ -1,18 +1,40 @@
 body {
-	border-style: solid;
-	border-width: 6px; 
-	border-color: rgb(100, 100, 100);
+	outline-color: rgb(100, 100, 100);
+	outline-style: solid;
 	background-color: rgb(102, 178, 255);
-}
-
-h1 {
-	color: black;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
 
 header {
-
+	color: white;
+	background-color: blue;
+	border-style: solid;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-color: rgb(100, 100, 100);
+	padding-top: 2px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 footer {
-	
+	font-style: italic;
+	background-color: rgb(102, 178, 255);
+	border-style: solid;
+	border-bottom-color: rgb(102, 178, 255);
+	border-right-color: rgb(102, 178, 255);
+	border-left-color:  rgb(102, 178, 255);
+	border-top-color: rgb(100, 100, 100);
+}
+
+#downloads {
+	margin: 20px;
+	color: white;
+	text-align: center;
+}
+
+#screenshot {
+	text-align: center;
 }
